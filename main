@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                font-family: Georgia;
+                background-color:lightblue;
+            }
+            h2{
+                color:midnightblue;
+                font-family: Arial Bold;
+            }
+            h1{
+                color:indigo;
+            }
+            header{
+                text-align: center;
+                background-color:lavender;
+                color:cornflowerblue;
+                padding: 8px;
+            }
+            a{
+                color:mediumpurple;
+                text-decoration: wavy;
+                padding: 9px 8px;
+            }
+            img{
+                width: 210px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>TANAMAN HIAS</h1>
+            <ul>
+                <a href="#LidahMertua">Lidah Mertua</a>
+                <a href="#Monstera">Monstera</a>
+                <a href="#RombusaMini">Rombusa Mini</a>
+                <a href="#LiliParis">Lili Paris</a>
+                <a href="#Philodendron">Philodendron</a>
+                <a href="#KupingGajah">Kuping Gajah</a>
+            </ul>
+        </header>
+
+        <section id ="LidahMertua">
+            <h2>Lidah Mertua</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR67KA4oPrZ0RJ_eDV5mP41XkwvpGA5CbHSZ0px78m9mef_iZJYLbH71BqaQYLvIwLvdM33vKv0iVnx46ik6P_0pkue77G_UPjXtBFycw&s=10">
+            <p>
+                Lidah mertua adalah jenis tanaman hias daun yang memiliki ciri daun menyempit di pangkalnya dan meruncing di ujungnya.<br>
+                Tanaman hias ini biasanya punya beberapa jenis warna yang, yaitu hijau tua, hijau muda, hijau keabu-abuan, dan hijau kekuningan.<br>
+                Merawat tanaman lidah mertua cukup mudah. Soalnya, tanaman ini mudah beradaptasi karena bisa menyimpan cadangan air dalam jumlah besar.<br>
+
+            </p>
+        </section>
+
+        <section id ="Monstera">
+            <h2>Monstera</h2>
+            <img src="https://florastore.com/cdn/shop/files/1711701_Atmosphere_04_SQ_MJ.jpg?v=1755163489&width=1080">
+            <p>
+                Siapa yang tidak mengenal tanaman monstera? Ya, ini salah satu tanaman yang sangat populer saat ini.<br>
+                Monstera memiliki ciri daun tebal berwarna hijau dengan bolongan besar di daun-daunnya. Tanaman monstera biasanya cocok diletakkan di teras rumah, yang tidak langsung terpapar sinar matahari.<br>
+                Hindari meletakkannya dekat paparan sinar matahari langsung karena cahaya berlebihan akan membuat daunnya menjadi kekuningan.<br>
+            </p>
+        </section>
+
+        <section id ="RombusaMini">
+            <h2>Rombusa Mini</h2>
+            <img src="https://siplah.blibli.com/data/images/SSBA-0050-00713/22d49300-fb13-4af9-b070-1b40a474d036.jpg">
+            <p>
+                Rombusa mini adalah tanaman perdu semak dengan daun yang sangat rimbun. Tanaman ini, punya beberapa jenis warna yang, antara lain hijau, kuning dan silver.<br>
+                Bunganya yang berwarna putih menambah penampilan cantiknya dan membuatnya cocok diletakkan di halaman dan teras rumah.<br>
+            </p>
+        </section>
+
+        <section id ="LiliParis">
+            <h2>Lili Paris</h2>
+            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/28/2024/09/13/Screenshot_94-493508561.jpg">
+            <p>
+                Dengan daunnya yang berbentuk pita memanjang dan tipis, lili paris mendapatkan julukan tanaman bulu ayam. Tidak seperti namanya, ternyata lili paris ini berasal dari Afrika Selatan.<br>
+                Warna daunnya yang terang dengan aksen hijau di pinggirnya, membuat lili paris paling digemari sebagai tanaman hias.<br>
+            </p>
+        </section>
+
+        <section id ="Philodendron">
+            <h2>Philodendron</h2>
+            <img src="https://www.thespruce.com/thmb/uKbhHG8NrCJKLzrNZVGsMJSD2S4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grow-philodendron-houseplants-1902768-04-8bee1496f67e41c392304329eaea505e.jpg">
+            <p>
+                Philodendron adalah tanaman hias yang memiliki ciri daun hijau berbentuk hati. Bentuknya yang unik ini, membuatnya menjadi favorit banyak orang.<br>
+                Selain itu, kamu juga bisa menempatkan philodendron di mana pun karena ia tidak membutuhkan sinar matahari yang berlebihan.<br>
+            </p>
+        </section>
+
+        <section id ="KupingGajah">
+            <h2>Kuping Gajah</h2>
+            <img src="https://id-test-11.slatic.net/p/c0960ad34bfed986e081a49d945e356e.jpg">
+            <p>
+                Kuping Gajah memiliki daun berukuran besar dan berbentuk hati. Tanaman kuping gajah memerlukan tanah yang lembab dan bernutrisi untuk tumbuh sehingga kamu harus secara teratur merawat jenis tanaman ini.<br>
+            </p>
+        </section>
+    </body>
+</html>>
