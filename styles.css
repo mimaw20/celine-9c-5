@@ -1,0 +1,30 @@
+header img{
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:lightpink;
+    font-size: 20px;
+    padding: 5px 10px;
+    transform: 1s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: beige;
+    color:rgb(250, 212, 255);
+}
+nav a:hover{
+    color:rgb(199, 199, 250);
+    transition: 1s;
+    border-radius: 25px 25px 25px 25px;
+    padding: 7px 20px;
+    background-color: lemonchiffon;
+    box-shadow: 3px 3px 3px 3px; 
+}
+body{
+    margin: 0px;
+}
+
