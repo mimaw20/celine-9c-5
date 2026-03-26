@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin:0;
     font-family:Verdana;
@@ -9,27 +12,27 @@ header img{
 }
 nav a{
     text-decoration: none;
-    color:lightpink;
+    color:rgb(246, 147, 162);
     font-size: 20px;
     padding: 10px 15px;
     transform: 1s;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Georgia;
     transition: 0.4s;
 }
 header{
     text-align: center;
-    background-color: beige;
-    color:rgb(250, 212, 255);
+    background-color:lemonchiffon;
+    color:rgb(255, 123, 165);
     padding: 10px;
     position: fixed;
     width: 100%;
 }
 nav a:hover{
-    color:rgb(199, 199, 250);
-    transition: 1s;
+    color:rgb(255, 87, 185);
+    transition: 0.3s;
     border-radius: 25px 25px 25px 25px;
     padding: 7px 20px;
-    background-color: lemonchiffon;
+    background-color: rgb(255, 249, 197);
     box-shadow: 3px 3px 3px 3px; 
 }
 body{
@@ -57,14 +60,16 @@ body{
     p{
         color:rgb(255, 253, 253);
     }
+
 .deskripsiHome a{
     text-decoration: none;
-    color:rgb(255, 177, 87);
+    color:rgb(255, 153, 37);
     background: radial-gradient(circle,rgba(255, 227, 168, 1) 0%, rgba(255, 222, 222, 1) 100%);
     background-color: rgb(255, 176, 73);
     border-radius: 25px 25px 25px 25px;
     padding: 9px 20px;
     box-shadow: 3px 3px 5px 3px rgb(255, 252, 206);
+    
 }
 
 .about{
@@ -80,9 +85,69 @@ body{
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    height: 100%;
+    height: 700px;
     padding-top: 50px;
+    box-shadow: 3px 10px 10px 10px;
+    color:rgb(169, 206, 110);
+    p{
+        text-align: justify;
+        font-size: 16px;
+        padding: 25px;
+        padding-top: 10px;
+    }
 }
 .containerAbout img{
-    height: 350px;
+    height: 300px;
+    box-shadow: 3px 3px 8px 8px;
+    color: rgba(255, 222, 222, 1);
 }
+.cardProfile{
+    background-color: rgb(251, 245, 175);
+    width:300px;
+    margin: auto;
+    text-align: center;
+    height: 55%;
+    padding: 15px;
+    box-shadow: 3px 15px 15px 15px;
+    color:lightpink;
+    & h3{
+        color:rgb(229, 96, 149)
+    }
+    & h2{
+        color:rgb(244, 155, 47)
+    }
+}
+ 
+.profile img{
+    width: 100%;
+    margin: auto;
+    box-shadow: 3px 7px 7px 7px;
+    color: rgb(252, 255, 88);
+}
+
+.profile{
+    background-image: url("final.jpeg");
+    height: 800px;
+    background-size: cover;
+    width: 100%;
+}
+
+.medsos{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+.penjelasan img{
+    width: 100%;
+}
+
+
