@@ -1,64 +1,88 @@
 body{
-    margin: 0;
+    margin:0;
+    font-family:Verdana;
 }
-.container{
-    background-color: black;
-    height: 600px;
+header img{
+    height: 250px;
+    border-radius: 30px;
+    padding: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:lightpink;
+    font-size: 20px;
+    padding: 10px 15px;
+    transform: 1s;
+    font-family:'Times New Roman', Times, serif;
+    transition: 0.4s;
+}
+header{
+    text-align: center;
+    background-color: beige;
+    color:rgb(250, 212, 255);
+    padding: 10px;
+    position: fixed;
     width: 100%;
 }
-.container div{
-    position: absolute;
-    font-size: 110px;
-    color: rgb(255, 255, 127);
-    text-shadow: 0px 0px 25px rgb(255, 255, 0);
-
+nav a:hover{
+    color:rgb(199, 199, 250);
+    transition: 1s;
+    border-radius: 25px 25px 25px 25px;
+    padding: 7px 20px;
+    background-color: lemonchiffon;
+    box-shadow: 3px 3px 3px 3px; 
 }
-.container div:nth-child(1){
-    left: 3%;
-    animation: animasi 2s infinite linear;
-}
-.container div:nth-child(2){
-    left: 18%;
-    animation: animasi 4s infinite linear;
-}
-.container div:nth-child(3){
-    left: 27%;
-    animation: animasi 3s infinite linear;
-}
-.container div:nth-child(4){
-    left: 36%;
-    animation: animasi 2s infinite linear;
-}
-.container div:nth-child(5){
-    left: 45%;
-    animation: animasi 4s infinite linear;
-}
-.container div:nth-child(6){
-    left: 54%;
-    animation: animasi 3s infinite linear;
-}
-.container div:nth-child(7){
-    left: 63%;
-    animation: animasi 2s infinite linear;
-}
-.container div:nth-child(8){
-    left: 72%;
-    animation: animasi 4s infinite linear;
-}
-.container div:nth-child(9){
-    left: 81%;
-    animation: animasi 3s infinite linear;
-}
-.container div:nth-child(10){
-    left: 90%;
-    animation: animasi 2s infinite linear;
+body{
+    margin: 0px;
 }
 
-@keyframes animasi {
-    0%{
-        transform: translateY(0px) scale(50%) rotate(0deg);
+.deskripsiHome{
+    width: 40%;
+    margin-left: 50px;
+    font-size: 21px;
+}
+
+.home{
+    background-image: url("bg4.png");
+    height: 600px;
+    background-size: cover;
+    padding-top: 100px;
+}
+    h1{
+        color:rgb(251, 251, 255);
     }
-    100%{
-        transform: translateY(500px) scale(30%) rotate(360deg);
+    h2{
+        color:rgb(253, 195, 172);
     }
+    p{
+        color:rgb(255, 253, 253);
+    }
+.deskripsiHome a{
+    text-decoration: none;
+    color:rgb(255, 177, 87);
+    background: radial-gradient(circle,rgba(255, 227, 168, 1) 0%, rgba(255, 222, 222, 1) 100%);
+    background-color: rgb(255, 176, 73);
+    border-radius: 25px 25px 25px 25px;
+    padding: 9px 20px;
+    box-shadow: 3px 3px 5px 3px rgb(255, 252, 206);
+}
+
+.about{
+    height: 750px;
+    background-color: rgb(255, 203, 113);
+    & h2{
+        color: rgb(255, 228, 153);
+    }
+}
+
+.containerAbout{
+    background-color: rgb(190, 111, 46);
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    height: 100%;
+    padding-top: 50px;
+}
+.containerAbout img{
+    height: 350px;
 }
